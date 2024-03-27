@@ -428,6 +428,8 @@ margin-top: 30px;
 
     .numbers{
         color: white;
+        display: flex;
+        
         font-size: 69px;
         font-weight: bold;
         justify-content: space-between;
@@ -435,6 +437,7 @@ margin-top: 30px;
     }
 .attribute{
     color: white;
+    gap: 10px;
     text-align: center;
     font-size: 19px;
     font-weight: bold;

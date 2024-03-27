@@ -372,6 +372,9 @@ body {
 }
 .HBL-PSL-9-Runs .numbers {
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 69px;
   font-weight: bold;
   -webkit-box-pack: justify;
@@ -381,6 +384,7 @@ body {
 }
 .HBL-PSL-9-Runs .attribute {
   color: white;
+  gap: 10px;
   text-align: center;
   font-size: 19px;
   font-weight: bold;
