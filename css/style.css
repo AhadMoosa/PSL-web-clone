@@ -1,0 +1,391 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(135deg, rgb(2, 0, 36) 0%, rgb(78, 195, 38) 0%, rgb(77, 223, 25) 51%, rgb(76, 143, 52) 51%, rgb(43, 107, 19) 100%, rgb(39, 191, 0) 100%, rgb(40, 108, 18) 100%, rgb(67, 233, 25) 100%, rgb(45, 193, 45) 100%);
+  height: 70px;
+}
+.nav-1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav-1 ul li {
+  list-style: none;
+}
+
+.nav-2 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(135deg, rgb(2, 0, 36) 0%, rgb(32, 32, 31) 0%, rgb(43, 107, 19) 45%, rgb(47, 121, 29) 45%, rgb(42, 107, 26) 45%, rgb(70, 157, 51) 45%, rgb(52, 163, 27) 46%);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 7px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 113px;
+  text-align: center;
+}
+.nav-2 .hover {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 0px;
+}
+.nav-2 .hover .main-logo {
+  margin-left: 30px;
+}
+.nav-2 .hover .hover-1 {
+  display: block;
+}
+.nav-2 .hover button {
+  display: block;
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+.nav-2 .hover :hover .hover-home {
+  display: block;
+}
+.nav-2 .hover :hover .hover-1 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-2 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-3 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-4 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-5 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-6 {
+  display: block;
+}
+.nav-2 .hover :hover .hover-7 {
+  display: block;
+}
+.nav-2 .hover :hover .drop-down-home {
+  background-color: white;
+  color: black;
+  font-size: xx-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-1 {
+  background-color: white;
+  color: black;
+  font-size: xx-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-2 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-3 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-4 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-5 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-6 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover :hover .drop-down-7 {
+  background-color: white;
+  color: black;
+  font-size: x-large;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.nav-2 .hover .hover-home {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-home a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-home a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-1 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-2 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-3 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-4 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-4 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-5 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-5 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-5 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-6 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-6 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-6 a :hover {
+  background-color: white;
+}
+.nav-2 .hover .hover-7 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.nav-2 .hover .hover-7 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.nav-2 .hover .hover-7 a :hover {
+  background-color: white;
+}
+
+.nav-3 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(135deg, rgb(2, 0, 36) 0%, rgb(78, 195, 38) 0%, rgb(64, 161, 29) 38%, rgb(76, 143, 52) 38%, rgb(43, 107, 19) 100%, rgb(39, 191, 0) 100%, rgb(40, 108, 18) 100%, rgb(67, 233, 25) 100%, rgb(45, 193, 45) 100%);
+  margin: auto;
+  height: 80px;
+}
+
+.teams-logo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.teams-logo img {
+  width: 100%;
+}
+
+.points-table {
+  padding-top: 25px;
+  color: rgb(14, 113, 8);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table {
+  text-align: center;
+  margin-left: 130px;
+  margin-right: 80px;
+  margin-top: 20px;
+  border-collapse: collapse;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+.table .col-1 {
+  width: 400px;
+  text-align: left;
+  padding-left: 20px;
+}
+.table tr {
+  height: 50px;
+}
+.table tr th {
+  border: solid rgb(136, 190, 168) 0.2px;
+  width: 75px;
+}
+.table tr td {
+  border: solid rgb(136, 190, 168) 0.2px;
+  width: 75px;
+}
+
+.season-9-teams {
+  padding-top: 25px;
+  color: rgb(14, 113, 8);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.season-9-teams-logos {
+  padding-left: 100px;
+  padding-right: 80px;
+  margin-top: 30px;
+}
+
+.HBL-PSL-9-Runs {
+  margin-top: 20px;
+  background-color: rgb(6, 92, 6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.HBL-PSL-9-Runs .numbers {
+  color: white;
+  font-size: 69px;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.HBL-PSL-9-Runs .attribute {
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+.nav-1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(78, 195, 38, 1) 0%, rgba(77, 223, 25, 1) 51%, rgba(76, 143, 52, 1) 51%, rgba(43, 107, 19, 1) 100%, rgba(39, 191, 0, 1) 100%, rgba(40, 108, 18, 1) 100%, rgba(67, 233, 25, 1) 100%, rgba(45, 193, 45, 1) 100%);
+    height: 70px;
+
+
+
+
+    ul {
+        display: flex;
+
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.nav-2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgb(32, 32, 31) 0%, rgba(43, 107, 19, 1) 45%, rgb(47, 121, 29) 45%, rgb(42, 107, 26) 45%, rgba(70, 157, 51, 1) 45%, rgb(52, 163, 27) 46%);
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 113px;
+    text-align: center;
+
+
+    .hover {
+        position: relative;
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        margin-top: 0px;
+
+        .main-logo {
+            margin-left: 30px;
+        }
+
+        .hover-1 {
+            display: block;
+        }
+
+        button {
+            display: block;
+            background-color: transparent;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bolder;
+
+        }
+
+        :hover {
+
+            .hover-home {
+                display: block;
+            }
+
+            .hover-1 {
+                display: block;
+            }
+
+            .hover-2 {
+                display: block;
+            }
+
+            .hover-3 {
+                display: block;
+            }
+
+            .hover-4 {
+                display: block;
+            }
+
+            .hover-5 {
+                display: block;
+            }
+
+            .hover-6 {
+                display: block;
+            }
+
+            .hover-7 {
+                display: block;
+            }
+
+            .drop-down-home {
+                background-color: white;
+                color: black;
+                font-size: xx-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-1 {
+                background-color: white;
+                color: black;
+                font-size: xx-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-2 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-3 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-4 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-5 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-6 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+
+            .drop-down-7 {
+                background-color: white;
+                color: black;
+                font-size: x-large;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+            }
+        }
+
+        .hover-home {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-1 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-2 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-3 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-4 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-5 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-6 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+
+        .hover-7 {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+
+            a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+
+                :hover {
+                    background-color: white;
+                }
+            }
+
+        }
+    }
+
+}
+
+.nav-3 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(135deg, rgba(2, 0, 36, 1) 0%, rgba(78, 195, 38, 1) 0%, rgb(64, 161, 29) 38%, rgba(76, 143, 52, 1) 38%, rgba(43, 107, 19, 1) 100%, rgba(39, 191, 0, 1) 100%, rgba(40, 108, 18, 1) 100%, rgba(67, 233, 25, 1) 100%, rgba(45, 193, 45, 1) 100%);
+    margin: auto;
+    height: 80px;
+
+}
+
+.teams-logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    img {
+        width: 100%;
+    }
+
+    ;
+
+}
+
+.points-table {
+    padding-top: 25px;
+    color: rgba(14, 113, 8, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 80px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+
+.col-1{
+    width: 400px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+    tr {
+        height: 50px;
+
+        th {
+            border: solid rgb(136, 190, 168) 0.2px;
+            width: 75px;
+        }
+
+        td {
+            border: solid rgb(136, 190, 168) 0.2px;
+            width: 75px;
+        }
+
+    }
+
+}
+
+.season-9-teams{
+    padding-top: 25px;
+    color: rgba(14, 113, 8, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.season-9-teams-logos{
+padding-left: 100px;
+padding-right: 80px;
+margin-top: 30px;
+}
+
+.HBL-PSL-9-Runs{
+    margin-top: 20px;
+    background-color: rgb(6, 92, 6);
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: space-between;
+   
+
+    .numbers{
+        color: white;
+        font-size: 69px;
+        font-weight: bold;
+        justify-content: space-between;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+.attribute{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+}
+
